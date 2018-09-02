@@ -20,6 +20,8 @@
 
 // ** Configurações do MySQL - Você pode pegar estas informações com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
+define('WP_SITEURL','http://minhapizzariateste-com-br.umbler.net');
+define('WP_HOME','http://minhapizzariateste-com-br.umbler.net');
 define('DB_NAME', 'minhapizzariates');
 
 /** Usuário do banco de dados MySQL */
