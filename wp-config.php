@@ -20,16 +20,16 @@
 
 // ** Configurações do MySQL - Você pode pegar estas informações com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
-define('DB_NAME', 'pizzaria');
+define('DB_NAME', 'minhapizzariates');
 
 /** Usuário do banco de dados MySQL */
-define('DB_USER', 'root');
+define('DB_USER', 'minhapizzariates');
 
 /** Senha do banco de dados MySQL */
-define('DB_PASSWORD', 'senha');
+define('DB_PASSWORD', 'senha123');
 
 /** Nome do host do MySQL */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'mysql942.umbler.com');
 
 /** Charset do banco de dados a ser usado na criação das tabelas. */
 define('DB_CHARSET', 'utf8mb4');
