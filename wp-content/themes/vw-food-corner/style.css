@@ -1,0 +1,125 @@
+/*
+Theme Name: VW Food Corner
+Theme URI: https://www.vwthemes.com/themes/food-wordpress-theme/
+Author: VWthemes
+Author URI: https://www.vwthemes.com
+Description: VW Food is a child theme of VW Restaurant, It is stylish and eye-catching WordPress theme for all the food lovers out there. You can find its application if you run a restaurant, cafe, coffee house, hotel, motel, bakery shop, eatery, food joint, lodge, barbeque, grill house, pizza parlour or a fast food centre or serves multiple cuisine like Italian, Chinese, Thai food etc. You can use it for a hospitality business or if you are a food blogger or food critic. This theme has powerful customizer to change its colour, background, images etc. The elegant design of the theme will surely attract people to explore the site. You can personalize this multipurpose theme to use as a blog, professional website or portfolio of food photography. It is fully responsive, cross-browser compatible and translation ready theme which has various slides for different look on every page. It is SEO-friendly and enhances page loading speed. The theme comes with banner, call to action (CTA) button and social media icons integration. The clean and secure code makes it more reliable. The VW Food theme implements short codes which makes it lighter to load and highly customizable.
+Template:  vw-restaurant-lite
+Version: 0.1
+License: GNU General Public License
+License URI: license.txt
+Text Domain: vw-food-corner
+Tags: custom-background, custom-menu, custom-colors, custom-logo, editor-style, featured-images, full-width-template, footer-widgets, one-column, sticky-post, two-columns, theme-options, threaded-comments, right-sidebar, left-sidebar, grid-layout, three-columns, blog, e-commerce, food-and-drink
+*/
+
+/* Default CSS */
+
+a{
+    color: #fa5853;
+}
+
+/* Services Section */
+
+#our-services {
+    text-align: center;
+}
+#our-services h3 {
+    font-size: 35px;
+    padding: 0;
+    color: #fa5853;
+}
+#our-services img {
+    width: 50%;
+    padding: 18px 0;
+}
+.image-div {
+    width: 194px;
+    height: 110px;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    border: 5px solid #000;
+    border-bottom: 0;
+    margin: 0 auto;
+}
+.image-div:hover {
+    background: #fa5853;
+}
+#our-services h4 {
+    font-size: 20px;
+    background:url('images/servicetitlebg.png') no-repeat;
+    margin: 0 auto;
+    color: #fff;
+    background-size: 100% 100%;    
+    padding: 8px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#our-services p {
+    color: #999;
+    font-size: 15px;
+}
+.page-box {
+    margin-top: 25px;
+}
+
+/* Blog Post */
+
+.inner-service{
+    background: #fa58534d;
+}
+.services .section-title a,
+#sidebar th,
+#sidebar td,
+#sidebar caption,
+#sidebar td#prev a, #sidebar td a,
+#sidebar ul li a:hover,
+.nav-previous a:hover, .nav-next a:hover{
+    color: #fa5853;
+}
+.pagination .current,
+.pagination a:hover,
+#sidebar input[type="submit"],
+#sidebar .tagcloud a:hover,
+input[type='submit'],
+.copyright,
+.hvr-sweep-to-right:before,
+#comments input[type="submit"].submit{
+    background: #fa5853;
+}
+#footer h3{
+    color: #fff;
+    border-color: #fff;
+}
+.copyright a, .copyright p{
+    color: #fff;
+}
+
+#sidebar h3 {
+    background: url(images/sidebar-heading-bg.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+/* Header */
+
+.header{
+    border-bottom:none;
+    background: #fa5853;
+}
+.header .nav ul li a:hover,
+.social-media i:hover,
+.header .logo a{
+    color: #000;
+}
+
+@media screen and (min-width: 720px){
+    .header .nav ul.sub-menu li a:hover {
+        background: #fa5853;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .toggle a {
+        background: url(images/responsive_menu.png) no-repeat right center #fa5853;
+    }
+}
